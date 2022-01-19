@@ -1,4 +1,0 @@
-C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/CMakeFiles/glad.dir
-C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/CMakeFiles/Voxel.dir
-C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
-C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
