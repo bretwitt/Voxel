@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Voxel"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Voxel">
+				<Option output="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Voxel.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Voxel"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Voxel/fast">
+				<Option output="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Voxel.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Voxel/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/legon/Desktop/Voxel_/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/MinGW/include/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/glad.c">
+			<Option target="glad"/>
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/main.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/VoxelGame.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/VoxelGame.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/System.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/eventhandler/Event.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/eventhandler/Event.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/eventhandler/EventHandler.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/eventhandler/EventHandler.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/eventhandler/Observer.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/eventhandler/Observer.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/GameLogicSystem.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/GameLogicSystem.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/player/PlayerController.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/player/PlayerController.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/Block.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/World.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/World.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/chunk/Chunk.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/chunk/Chunk.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/events/LoadChunkEvent.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/events/LoadChunkEvent.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/events/UnloadChunkEvent.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/events/UnloadChunkEvent.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/events/WorldEventHandler.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gamelogic/world/events/WorldEventHandler.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GLWrappers/EBO.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GLWrappers/EBO.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GLWrappers/VAO.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GLWrappers/VAO.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GLWrappers/VBO.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GLWrappers/VBO.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GameRenderSystem.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/GameRenderSystem.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/camera/Camera.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/camera/Camera.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/chunkrenderer/ChunkMesh.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/chunkrenderer/ChunkMesh.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/chunkrenderer/ChunkRenderer.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/chunkrenderer/ChunkRenderer.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/shaders/Shader.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/shaders/Shader.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/textures/Texture.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/textures/Texture.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/ui/UI.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/ui/UI.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/windows/window.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/windows/window.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/worldrenderer/WorldRenderer.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/gfx/worldrenderer/WorldRenderer.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/input/InputHandler.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/game/systems/input/InputHandler.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/OpenSimplex/OpenSimplexNoise.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/SimplexNoise/SimplexNoise.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/SimplexNoise/SimplexNoise.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui_draw.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui_impl_glfw.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui_impl_glfw.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui_impl_opengl3.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui_impl_opengl3.h">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui_tables.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/src/vendor/imgui/imgui_widgets.cpp">
+			<Option target="Voxel"/>
+		</Unit>
+		<Unit filename="C:/Users/legon/Desktop/Voxel_/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
